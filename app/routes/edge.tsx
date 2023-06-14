@@ -2,8 +2,6 @@ import type { LoaderArgs } from "@vercel/remix";
 import { useLoaderData } from "@remix-run/react";
 
 import { Footer } from "~/components/footer";
-import { Region } from "~/components/region";
-import { Illustration } from "~/components/illustration";
 import { parseVercelId } from "~/parse-vercel-id";
 import { sha1digest } from "~/crypto";
 
